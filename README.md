@@ -2,6 +2,10 @@
 
 Base docker image for working with geospatial data.
 
+[![Docker Image CI](https://github.com/NEERINC/docker-geopandas/actions/workflows/docker-image.yml/badge.svg)](https://github.com/NEERINC/docker-geopandas/actions/workflows/docker-image.yml)
+![Docker Image Size](https://img.shields.io/docker/image-size/neerteam/geopandas?label=Size)
+![Docker Pulls](https://img.shields.io/docker/pulls/neerteam/geopandas?label=Pulls)
+
 ## Roadmap
 
 See the [open issues](https://github.com/NEERINC/docker-geopandas/issues) for a list of proposed features (and known issues).
@@ -24,11 +28,3 @@ git add . && git commit -m "Changed X,Y,Z" && git push
 ## License
 
 Distributed under the GPL-3.0 License. See [LICENSE](./LICENSE) for more information.
-
----
-
-### Status
-
-[![Docker Image CI](https://github.com/NEERINC/docker-geopandas/actions/workflows/docker-image.yml/badge.svg)](https://github.com/NEERINC/docker-geopandas/actions/workflows/docker-image.yml)
-![Docker Image Size](https://img.shields.io/docker/image-size/neerteam/geopandas?label=Size)
-![Docker Pulls](https://img.shields.io/docker/pulls/neerteam/geopandas?label=Pulls)
