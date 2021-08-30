@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.0
 
-FROM python:3.9.6
+FROM python:3.10-rc-slim
 
 LABEL name="docker-geopandas"
 LABEL version="0.8"
