@@ -2,7 +2,7 @@
 
 FROM python:3.9.6
 
-LABEL name="docker-geopandas"
+LABEL name="@neerteam/geopandas"
 LABEL version="0.8"
 LABEL description="Base docker image for working with geospatial data."
 LABEL keywords="python,docker,dockerfile,docker-image,geospatial,geospatial-data,numpy,pandas,scipy"
@@ -11,9 +11,10 @@ LABEL license="GPL-3.0"
 LABEL author="Matthew Downs <matthew@neer.ai>"
 
 # Install relevant system packages
-RUN apt update && apt install -y --no-install-recommends \
-    build-essential libatlas-base-dev gfortran binutils \
-    libproj-dev libpq-dev libgdal-dev gdal-bin
+RUN apt-get update && apt install -y --no-install-recommends \
+    libatlas-base-dev \
+    libgdal-dev \
+    gfortran
 
 # Setting PYTHONUNBUFFERED to a non empty value ensures that the python output
 # is sent straight to terminal without being first buffered and that you can
