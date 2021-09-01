@@ -26,7 +26,7 @@ RUN pip3 install \
     "numpy>=1.20.0,<1.21.0" \
     "scipy>=1.6.1,<1.8.0" \
     "pandas>=1.2.0,<1.3.0" \
-    "geopandas==0.8"
+    "geopandas==0.8.0"
 
 # Execute python3
 CMD ["python3"]
