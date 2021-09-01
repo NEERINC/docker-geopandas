@@ -10,7 +10,7 @@ LABEL homepage="https://github.com/NEERINC/docker-geopandas#readme"
 LABEL license="GPL-3.0"
 LABEL author="Matthew Downs <matthew@neer.ai>"
 
-RUN useradd --user-group --system --create-home --no-log-init geopandas
+RUN useradd --disable-password geopandas
 USER geopandas
 WORKDIR /home/geopandas
 
