@@ -11,7 +11,7 @@ LABEL license="GPL-3.0"
 LABEL author="Matthew Downs <matthew@neer.ai>"
 
 RUN useradd --user-group --system --create-home --no-log-init geopandas
-USER python
+USER geopandas
 WORKDIR /home/geopandas
 
 # Install relevant system packages
