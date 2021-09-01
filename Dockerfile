@@ -5,7 +5,7 @@ FROM python:3.9.6
 LABEL name="@neerteam/geopandas"
 LABEL version="0.8"
 LABEL description="Base docker image for working with geospatial data."
-LABEL keywords="python,numpy,pandas,scipy,geopandas,geospatial,geospatial-data"
+LABEL keywords="python,numpy,pandas,scipy,geopandas,gis,geospatial,geospatial-data"
 LABEL homepage="https://github.com/NEERINC/docker-geopandas#readme"
 LABEL license="GPL-3.0"
 LABEL author="Matthew Downs <matthew@neer.ai>"
