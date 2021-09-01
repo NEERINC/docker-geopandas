@@ -10,7 +10,7 @@ LABEL homepage="https://github.com/NEERINC/docker-geopandas#readme"
 LABEL license="GPL-3.0"
 LABEL author="Matthew Downs <matthew@neer.ai>"
 
-RUN useradd -D python
+RUN adduser -D python
 USER python
 WORKDIR /home/python
 
