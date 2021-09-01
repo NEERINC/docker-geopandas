@@ -10,10 +10,6 @@ LABEL homepage="https://github.com/NEERINC/docker-geopandas#readme"
 LABEL license="GPL-3.0"
 LABEL author="Matthew Downs <matthew@neer.ai>"
 
-RUN useradd --create-home --user-group geopandas
-USER geopandas
-WORKDIR /home/geopandas
-
 # Install relevant system packages
 RUN apt-get update && apt install -y --no-install-recommends \
     libatlas-base-dev \
