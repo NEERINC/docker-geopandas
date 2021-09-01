@@ -10,9 +10,9 @@ LABEL homepage="https://github.com/NEERINC/docker-geopandas#readme"
 LABEL license="GPL-3.0"
 LABEL author="Matthew Downs <matthew@neer.ai>"
 
-RUN adduser -D python
+RUN adduser --user-group --system --create-home --no-log-init geopandas
 USER python
-WORKDIR /home/python
+WORKDIR /home/geopandas
 
 # Install relevant system packages
 RUN apt-get update && apt install -y --no-install-recommends \
