@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.0
 
-FROM python:3.9.7
+FROM python:3.9
 
 LABEL name="@neerteam/geopandas"
 LABEL version="0.9.0"
