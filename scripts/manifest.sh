@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # 0.9.0-alpine
-docker manifest create --amend neerteam/geopandas:0.9.0-alpine \
-    neerteam/geopandas:0.9.0-alpine-amd64-linux \
-    neerteam/geopandas:0.9.0-alpine-arm64-linux
-docker manifest push neerteam/geopandas:0.9.0-alpine
+#docker manifest create --amend neerteam/geopandas:0.9.0-alpine \
+#    neerteam/geopandas:0.9.0-alpine-amd64-linux \
+#    neerteam/geopandas:0.9.0-alpine-arm64-linux
+#docker manifest push neerteam/geopandas:0.9.0-alpine
 
 # 0.9.0-bullseye
 docker manifest create --amend neerteam/geopandas:0.9.0-bullseye \

@@ -12,6 +12,6 @@ read -p "Press any key to continue, or Ctrl+C to cancel "
 BASE=$(dirname "$0")
 
 # 0.9.0
-docker push $(VERSION=0.9.0 VARIANT=alpine ${BASE}/build.sh)
+#docker push $(VERSION=0.9.0 VARIANT=alpine ${BASE}/build.sh)
 docker push $(VERSION=0.9.0 VARIANT=bullseye ${BASE}/build.sh)
 docker push $(VERSION=0.9.0 VARIANT=buster ${BASE}/build.sh)

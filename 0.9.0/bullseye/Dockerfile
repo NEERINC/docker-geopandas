@@ -3,7 +3,7 @@ FROM python:3.9-bullseye
 COPY requirements.txt .
 
 # Install relevant system packages
-RUN apt-get update && apt install -y --no-install-recommends \
+RUN apt-get update && apt-get install -y --no-install-recommends \
   build-essential \
   libatlas-base-dev \
   libgdal-dev \
