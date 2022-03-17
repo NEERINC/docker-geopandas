@@ -3,9 +3,8 @@
 echo
 echo "***** WARNING *****"
 echo
-echo "This image takes a very long time to build, even the alpine variants."
-echo "Expect total build time for all versions/variants to take at least 10 minutes each on a fast system, and even longer on slower systems."
-echo "If you are just wanting to update a single tag, it is recommended to build for that version/variant individually."
+echo "The *-alpine variant of this image can take up to 30 minutes to build due to no pre-compiled binaries existing in Alpine."
+echo "If you want to update a non-Alpine tag, it is recommended to build it individually."
 echo
 echo "Continue anyways?"
 read -p "Press any key to continue, or Ctrl+C to cancel "

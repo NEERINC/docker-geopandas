@@ -19,6 +19,6 @@ fi
 TAG="neerteam/geopandas:${VERSION}-${VARIANT}-$(get_arch)-linux"
 
 # Build the image and tag it
-docker build --tag $TAG ./$VERSION/$VARIANT/. --progress=plain
+docker build --tag $TAG ./$VERSION/$VARIANT/.
 
 echo ${TAG}
