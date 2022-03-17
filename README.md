@@ -2,7 +2,6 @@
 
 Base docker image for working with geospatial data.
 
-[![Docker Image CI](https://github.com/NEERINC/docker-geopandas/actions/workflows/docker-image.yml/badge.svg)](https://github.com/NEERINC/docker-geopandas/actions/workflows/docker-image.yml)
 ![Docker Image Size](https://img.shields.io/docker/image-size/neerteam/geopandas?label=Size)
 ![Docker Pulls](https://img.shields.io/docker/pulls/neerteam/geopandas?label=Pulls)
 
