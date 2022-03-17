@@ -2,9 +2,6 @@
 
 Base docker image for working with geospatial data.
 
-![Docker Image Size](https://img.shields.io/docker/image-size/neerteam/geopandas?label=Size)
-![Docker Pulls](https://img.shields.io/docker/pulls/neerteam/geopandas?label=Pulls)
-
 ## Roadmap
 
 See the [open issues](https://github.com/NEERINC/docker-geopandas/issues) for a list of proposed features (and known issues).
